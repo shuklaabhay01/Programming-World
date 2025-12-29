@@ -1,4 +1,4 @@
-alert("JS Connected Successfully!");
+
 
 //for searching languages in nav bar
 const navSearch = document.getElementById("navSearch");
@@ -14,4 +14,5 @@ navSearch.addEventListener("keyup", () => {
         const text = item.innerText.toLowerCase();
         item.style.display = text.includes(value) ? "" : "none";
     });
+
 });
