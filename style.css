@@ -21,7 +21,8 @@ body {
     border: none;
     outline: none;
     font-size: 14px;
-    width: 500px;
+    width: 80%;
+    margin-top: 5%;
 }
 
 
@@ -33,7 +34,7 @@ body {
     display: inline;
     align-items: center;
     margin-left: 20px;
-    margin-right: -150px;
+    margin-right: 10px;
 }
 
 .navbar {
@@ -44,6 +45,7 @@ body {
     color: white;
     margin-left: -100px;
     margin-right: -40px;
+    width: 132%;
 }
 
 /* ===== HEADER ===== */
@@ -59,7 +61,7 @@ header {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     height: 100px;
     padding: 15px 30px;
@@ -72,6 +74,7 @@ header {
 .logo {
     font-size: 1.8em;
     font-weight: bold;
+    margin-left: 1rem;
 }
 
 nav ul {
@@ -91,6 +94,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
+    white-space: nowrap;
 }
 
 nav ul li a:hover {
@@ -433,3 +437,146 @@ footer {
     background: rgb(0, 0, 255);
     color: #fff;
 }
+
+
+
+
+
+
+.asdf p {
+    color: #555;
+    margin-bottom: 40px;
+
+}
+
+.asdf h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.asdf {
+
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+
+}
+
+
+.coca h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+
+}
+
+.coca p {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.coca {
+    background: white;
+    ;
+    /* hide all */
+
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coca h3 {
+    margin-bottom: 10px;
+}
+
+.coca p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.coca a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #0a58ca;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.coca a:hover {
+    background: #084298;
+}
+
+.asdf {
+
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.cr {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    /* ✅ 3 columns */
+    margin: 50px 60px 50px 60px;
+}
+
+/*responsive ccode
+@media (max-width: 768px) {
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+
+    .cr {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .courses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .courses {
+        grid-template-columns: 1fr;
+    }
+}
+*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Badge styles */
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 6px;
+    background: #eee;
+    color: #333;
+    letter-spacing: 1px;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+
+.badge-secondary {
+    background: #605c56;
+    color: #fff;
+}
+
+/* tofix navbar */
