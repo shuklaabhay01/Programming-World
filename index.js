@@ -1,4 +1,8 @@
-alert("JS Connected Successfully!");
+
+
+
+
+
 
 //for search bar botton
 
@@ -19,4 +23,5 @@ function filterLanguages() {
 
 navSearch.addEventListener("keyup", filterLanguages);
 searchBtn.addEventListener("click", filterLanguages);
+
 
