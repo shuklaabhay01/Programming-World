@@ -341,12 +341,12 @@ footer {
 }
 
 .courses {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    
     /* ✅ 3 columns */
-    margin: 50px 60px 50px 60px;
 }
 
 .course-card.show {
